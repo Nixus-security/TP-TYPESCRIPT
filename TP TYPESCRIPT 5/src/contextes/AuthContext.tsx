@@ -1,5 +1,3 @@
-// src/contextes/AuthContext.tsx
-//
 // Connexion simulée : aucun serveur, aucun mot de passe. Un pseudo suffit
 // à "connecter" l'utilisateur, et l'état ne survit pas au rafraîchissement.
 

@@ -1,5 +1,3 @@
-// src/lib/omdb.ts
-//
 // La version du TP4, augmentée de ce qu'il faut pour la page de détail.
 // Tout ce qui décrit l'API OMDB est ici : les types des réponses et la
 // construction des URL. Aucun composant, aucun hook — ce fichier ne sait

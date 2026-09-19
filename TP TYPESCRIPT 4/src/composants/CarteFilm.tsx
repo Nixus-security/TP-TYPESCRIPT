@@ -1,4 +1,3 @@
-// src/composants/CarteFilm.tsx
 import type { FilmOmdb } from "../lib/omdb";
 import { Carte } from "./Carte";
 import { Badge } from "./Badge";

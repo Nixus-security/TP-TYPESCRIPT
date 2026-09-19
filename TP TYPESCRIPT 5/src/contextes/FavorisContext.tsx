@@ -1,5 +1,3 @@
-// src/contextes/FavorisContext.tsx
-//
 // L'état est piloté par un reducer : le Provider ne fait que détenir
 // l'état et l'écrire dans localStorage, toute la logique métier vit
 // dans reducerFavoris, une fonction pure.
@@ -38,9 +36,8 @@ function reducerFavoris(etat: FilmOmdb[], action: ActionFavoris): FilmOmdb[] {
   }
 }
 
-// BONUS (consigne 8). La lecture se fait ici, à l'initialisation du
-// useReducer — jamais dans le reducer, ce serait un effet de bord dans
-// une fonction pure.
+// La lecture se fait ici, à l'initialisation du useReducer — jamais dans
+// le reducer, ce serait un effet de bord dans une fonction pure.
 function lireFavorisInitiaux(): FilmOmdb[] {
   try {
     const brut = localStorage.getItem(CLE_STOCKAGE);

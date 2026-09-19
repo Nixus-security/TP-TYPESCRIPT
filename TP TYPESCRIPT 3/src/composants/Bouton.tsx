@@ -1,5 +1,3 @@
-// src/composants/Bouton.tsx
-
 export type VarianteBouton = "primaire" | "secondaire" | "danger";
 export type TypeBouton = "button" | "submit";
 
@@ -16,8 +14,7 @@ const base =
   "focus:outline-none focus:ring-2 focus:ring-offset-1 " +
   "disabled:opacity-50 disabled:cursor-not-allowed";
 
-// L'objet est indexé par l'union littérale : si vous ajoutez une variante
-// à VarianteBouton sans l'ajouter ici, TypeScript le signale.
+// indexé par l'union : une variante ajoutée sans entrée ici fait râler TypeScript
 const variantes: Record<VarianteBouton, string> = {
   primaire: "bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-400",
   secondaire: "bg-slate-200 text-slate-900 hover:bg-slate-300 focus:ring-slate-400",

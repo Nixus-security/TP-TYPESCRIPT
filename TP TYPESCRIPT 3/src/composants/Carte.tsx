@@ -1,11 +1,10 @@
-// src/composants/Carte.tsx
 import type { ReactNode } from "react";
 
 export interface CarteProps {
   titre: string;
   sousTitre?: string;
-  children: ReactNode;   // le contenu libre de la carte
-  actions?: ReactNode;   // emplacement optionnel pour des boutons
+  children: ReactNode; // contenu libre
+  actions?: ReactNode; // boutons en pied de carte, facultatif
 }
 
 export function Carte({ titre, sousTitre, children, actions }: CarteProps) {

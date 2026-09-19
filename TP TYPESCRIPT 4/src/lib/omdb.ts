@@ -1,5 +1,3 @@
-// src/lib/omdb.ts
-
 export interface FilmOmdb {
   imdbID: string;
   Title: string;

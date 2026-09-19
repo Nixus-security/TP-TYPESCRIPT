@@ -1,8 +1,6 @@
-// src/pages/Connexion.tsx
-//
 // Aucun mot de passe, aucun serveur : un pseudo non vide suffit.
-// BONUS (consigne 7) : si on arrive ici via une redirection depuis une
-// route protégée, on repart sur la page initialement demandée.
+// Si on arrive ici via une redirection depuis une route protégée,
+// on repart sur la page initialement demandée après connexion.
 
 import { useState, type FormEvent } from "react";
 import { useLocation, useNavigate } from "react-router-dom";

@@ -1,8 +1,5 @@
-// src/composants/CarteFilm.tsx
-//
-// L'ADAPTATEUR demandé par la consigne 6. Il ne dessine presque rien :
-// il traduit un film OMDB en props pour la Carte du TP2, qui n'est pas
-// modifiée. C'est tout l'intérêt d'avoir fait une Carte générique.
+// L'adaptateur : il traduit un film OMDB en props pour la Carte du TP2,
+// sans y toucher. C'est tout l'intérêt d'avoir fait une Carte générique.
 
 import type { FilmOmdb } from "../lib/omdb";
 import { afficheDisponible } from "../lib/omdb";

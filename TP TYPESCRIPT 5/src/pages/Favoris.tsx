@@ -1,5 +1,3 @@
-// src/pages/Favoris.tsx
-//
 // Accessible seulement connecté (voir RouteProtegee). Lit et modifie le
 // même contexte que le compteur de l'en-tête et le bouton de la page
 // de détail : aucune prop ne traverse le Layout.

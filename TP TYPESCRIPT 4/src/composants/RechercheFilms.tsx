@@ -1,4 +1,3 @@
-// src/composants/RechercheFilms.tsx
 import { useEffect, useState } from "react";
 import type { FilmOmdb, ReponseRecherche } from "../lib/omdb";
 import { urlRecherche } from "../lib/omdb";

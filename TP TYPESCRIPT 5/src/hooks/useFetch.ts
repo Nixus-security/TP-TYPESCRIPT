@@ -1,8 +1,6 @@
-// src/hooks/useFetch.ts
-//
-// BONUS (consigne 7). Exactement la même logique que dans
-// RechercheFilms.tsx, mais sortie du composant et rendue générique.
-// Aucun type lié aux films n'apparaît ici : c'est le critère.
+// La même logique que dans RechercheFilms.tsx au TP4, sortie du composant
+// et rendue générique. Aucun type lié aux films n'apparaît ici : c'est
+// ce qui garantit que le hook reste réutilisable.
 
 import { useEffect, useState } from "react";
 
@@ -54,9 +52,9 @@ export function useFetch<T>(url: string | null): EtatFetch<T> {
   return { donnees, chargement, erreur };
 }
 
-/** BONUS (consigne 8). Renvoie la valeur, mais seulement après un temps
- *  de calme. Le nettoyage annule le minuteur précédent à chaque frappe :
- *  c'est lui qui fait tout le travail. */
+/** Renvoie la valeur, mais seulement après un temps de calme. Le nettoyage
+ *  annule le minuteur précédent à chaque frappe : c'est lui qui fait
+ *  tout le travail. */
 export function useDebounce<T>(valeur: T, delai = 400): T {
   const [differee, setDifferee] = useState(valeur);
 

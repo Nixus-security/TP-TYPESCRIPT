@@ -1,8 +1,5 @@
-// src/contextes/ThemeContext.tsx
-//
-// BONUS (consigne 6). Le troisième contexte, écrit sur le même patron
-// que les deux autres : créé à undefined, Provider avec un useState,
-// hook de consommation gardé.
+// Le troisième contexte, sur le même patron que les deux autres :
+// créé à undefined, Provider avec un useState, hook de consommation gardé.
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 

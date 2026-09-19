@@ -1,7 +1,5 @@
-// src/pages/Recherche.tsx
-//
-// Le composant du TP4, presque inchangé : la recherche différée est
-// maintenant le useDebounce générique du hook, et chaque carte est
+// Le composant du TP4, presque inchangé : la recherche différée passe
+// maintenant par le useDebounce générique du hook, et chaque carte est
 // enveloppée dans un Link vers sa page de détail. CarteFilm ne bouge pas.
 
 import { useState } from "react";

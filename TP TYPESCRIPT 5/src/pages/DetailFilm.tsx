@@ -1,4 +1,3 @@
-// src/pages/DetailFilm.tsx
 import { Link, useParams } from "react-router-dom";
 import type { FilmDetailOmdb } from "../lib/omdb";
 import { afficheDisponible, urlDetail } from "../lib/omdb";
